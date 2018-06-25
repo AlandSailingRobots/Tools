@@ -16,7 +16,7 @@ Once gmplot is installed execute gpsPlotting_1.0 as follows :
 
 `python gpsPlotting_1.0.py <dataFile>`
 
-Replace <dataFile> with the name of your csv file containing latitude and longitude points of ASPire's route
+Replace `<dataFile>` with the name of your csv file containing latitude and longitude points of ASPire's route
 
 
 The script will then plot all points and create a route between them on a google map named ASPire_route.html
