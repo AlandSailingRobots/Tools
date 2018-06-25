@@ -311,7 +311,7 @@ def joinExpression(firstTable, outputTables):
 	else:
 		res = ''
 		
-	res += ' ORDER BY ' + firstTable + '.t_timestamp ASC'
+	#res += ' ORDER BY ' + firstTable + '.t_timestamp ASC'
 
 	return res
 
