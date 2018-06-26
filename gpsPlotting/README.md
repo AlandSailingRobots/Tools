@@ -1,5 +1,9 @@
 # README
 
+###### Author : Joshua Bruylant
+###### Date : 26 June 2018
+###### Version 1.1
+
 ## Setup
 
 - In the gmplot folder execute the setup.py install script
