@@ -1,5 +1,6 @@
 # README
 
+# ASPire GPS plotting script
 ###### Author : Joshua Bruylant
 ###### Date : 26 June 2018
 ###### Version 1.1
@@ -29,7 +30,7 @@ _Mac OS_ :
 
 Once gmplot is installed execute gpsPlotting_1.1 as follows : 
 
-`python gpsPlotting_1.1.py <csv File> <Interval between each timestamp marker>`
+`python3 gpsPlotting_1.1.py <csv File> <Interval between each timestamp marker>`
 
 - Replace `<csv File>` with the name of your csv file containing latitude and longitude points of ASPire's route
 **N.B.:** This csv file must contain the columns time or t_timestamp, latitude, longitude and satellites_used (Use my other script, *logExtraction* in order to easily create this csv file)
