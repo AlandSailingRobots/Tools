@@ -7,6 +7,8 @@
 
 ## Setup
 
+- Clone gmplot from https://github.com/vgm64/gmplot.git
+
 - In the gmplot folder execute the setup.py install script
 
 _Linux & Mac OS_ : 
