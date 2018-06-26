@@ -8,7 +8,20 @@
 
 
 ## Description : 
+
 Creates a CSV file from user selected columns in ASPire's log database
+
+## Setup : 
+
+- Install the pathlib library
+
+_Linux_ :
+
+`pip install pathlib` or use your usual installer
+
+_Mac OS_ :
+
+`easy_install pathlib` or use your usual installer
 
 ## Instructions : 
 
