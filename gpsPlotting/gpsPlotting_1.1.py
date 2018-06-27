@@ -71,7 +71,7 @@ with open(logFile, 'r') as csvfile:
 	firstLine = next(reader)
 	#Check each header column to determine where the latitudes and longitudes are situated
 	for n in range(len(firstLine)):
-		if (firstLine[n] in ['time', 't_timestamp']) : timeCol = n		
+		if (firstLine[n] in ['time', 't_timestamp']) : timeCol = n
 			
 		if (firstLine[n] == 'latitude') : latCol = n 
 			
@@ -79,10 +79,10 @@ with open(logFile, 'r') as csvfile:
 		
 		if (firstLine[n] == 'satellites_used') : satCol = n 
 			
-	if not latCol : sys.exit("No Latitude!")	
-	if not longCol : sys.exit("No longitude!")
-	if not satCol : sys.exit("No satellites_used!")
-	if not timeCol : sys.exit("No time!")
+	if not str(latCol) : sys.exit("No Latitude!")	
+	if not str(longCol) : sys.exit("No longitude!")
+	if not str(satCol) : sys.exit("No satellites_used!")
+	if not str(timeCol) : sys.exit("No time!")
 
 	
 	#Add values to their list
