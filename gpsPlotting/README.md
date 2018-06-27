@@ -41,6 +41,7 @@ Once gmplot is installed execute gpsPlotting_1.1 as follows :
 
 - Replace `<Interval between each timestamp marker>` with the amount of points you want to skip between placing each timestamp marker.
 **Warning** : The lower the interval, the more clustered the map will be. Having the interval too low (<20 is risky) has a high chance of making the map crash all together.
+An interval value of 0 means no markers will be placed
 
 
 The script will then plot all points and create a route between them on a google map named ASPire_route.html
