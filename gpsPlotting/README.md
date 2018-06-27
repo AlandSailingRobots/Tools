@@ -7,6 +7,18 @@
 
 ## Setup
 
+- You may have to install the pathlib library
+
+_Linux_ :
+
+`pip install pathlib` or use your usual installer
+
+_Mac OS_ :
+
+`easy_install pathlib` or use your usual installer
+
+
+
 - Clone gmplot from https://github.com/vgm64/gmplot.git
 
 - In the gmplot folder execute the setup.py install script
@@ -17,16 +29,6 @@ _Linux & Mac OS_ :
 cd gmplot
 sudo python setup.py install
 ```
-
-- You also have to install the pathlib library
-
-_Linux_ :
-
-`pip install pathlib` or use your usual installer
-
-_Mac OS_ :
-
-`easy_install pathlib` or use your usual installer
 
 **-----**
 
