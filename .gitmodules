@@ -1,0 +1,3 @@
+[submodule "gpsPlotting/gmplot"]
+	path = gpsPlotting/gmplot
+	url = /home/sailbot/Joshua_Bruylant/Tools/gpsPlotting/gmplot
