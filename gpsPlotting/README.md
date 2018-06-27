@@ -2,33 +2,28 @@
 
 # ASPire GPS plotting script
 ###### Author : Joshua Bruylant
-###### Date : 26 June 2018
+###### Date : 27 June 2018
 ###### Version 1.1
 
 ## Setup
 
-- You may have to install the pathlib library
+1. You may have to install the pathlib library  
 
-_Linux_ :
+   _Linux_ :
 
-`pip install pathlib` or use your usual installer
+   `pip install pathlib` or use your usual installer
 
-_Mac OS_ :
+   _Mac OS_ :
 
-`easy_install pathlib` or use your usual installer
-
-
-
-- Clone gmplot from https://github.com/vgm64/gmplot.git
-
-- In the gmplot folder execute the setup.py install script
-
-_Linux & Mac OS_ : 
-
-```
-cd gmplot
-sudo python setup.py install
-```
+   `easy_install pathlib` or use your usual installer
+&nbsp;
+2. Inside your cloned repo run the following commands : 
+   ```
+   git submodule init
+   git submodule update
+   cd gpsPlotting/gmplot
+   sudo python setup.py install
+   ```
 
 **-----**
 
