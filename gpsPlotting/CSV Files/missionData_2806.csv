@@ -1,0 +1,5 @@
+id,is_checkpoint,latitude,longitude,declination,radius,stay_time,harvested,id_mission,rankInMission,name
+1503486574,0,60.1079,19.92235,6,30,0,1,41,1,
+1503486622,0,60.10584,19.92246,6,30,0,0,41,2,
+1503486665,0,60.10549,19.92049,6,30,0,0,41,3,
+1503486698,0,60.10793,19.9216,6,30,60,0,41,4,
