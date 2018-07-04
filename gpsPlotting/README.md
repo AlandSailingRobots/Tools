@@ -7,17 +7,8 @@
 
 ## Setup
 
-1. You may have to install the pathlib library  
 
-   _Linux_ :
-
-   `pip install pathlib` or use your usual installer
-
-   _Mac OS_ :
-
-   `easy_install pathlib` or use your usual installer
-&nbsp;
-2. Inside your cloned repo run the following commands : 
+1. Inside your cloned repo run the following commands : 
    ```
    git submodule init
    git submodule update
@@ -33,7 +24,7 @@
 Once gmplot is installed follow these steps : 
 
 1. Navigate to Tools/logExtraction
-2. Execute `python3 logExtraction_1.0.py <Test sail database>` and create a GPS CSV file containing the columns : **t_timestamp, latitude, longitude, satellites_used, rc_on**
+2. Execute `python3 logExtraction_1.0.py` and create a GPS CSV file containing the columns : **t_timestamp, latitude, longitude, satellites_used, rc_on**
 3. Execute `python3 waypointsToCSV.py <Test sail database>` to create the current mission CSV file
 4. Navigate to Tools/gpsPlotting and execute `python3 gpsPlotting_1.3.py <GPS CSV File> <Current Mission CSV> <Interval between each timestamp marker>`
 

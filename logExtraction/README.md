@@ -11,21 +11,8 @@
 
 Creates a CSV file from user selected columns in ASPire's log database
 
-## Setup : 
-
-- Install the pathlib library
-
-_Linux_ :
-
-`pip install pathlib` or use your usual installer
-
-_Mac OS_ :
-
-`easy_install pathlib` or use your usual installer
 
 ## Instructions : 
-
-0. Unzip contents of zip folder
 
 1. Execute logExtraction_1.0.py using python3
 
