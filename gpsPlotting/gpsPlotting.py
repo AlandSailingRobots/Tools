@@ -14,8 +14,8 @@ import random
 """
 ASPire GPS route plotting script
 Author : Joshua Bruylant
-Last modified : 04 July 2018
-Version 1.3
+Last modified : 06 July 2018
+Version 1.4
 
 
 DESCRIPTION : 
