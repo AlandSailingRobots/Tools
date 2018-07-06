@@ -4,10 +4,12 @@ import numpy as np
 import math as m
 from gmplot import gmplot
 from gmplot.color_dicts import html_color_codes
+
 from pathlib import Path
 from datetime import datetime
 from datetime import timedelta
 import random
+
 
 """
 ASPire GPS route plotting script
@@ -196,7 +198,6 @@ def getListOfBlues():
 
     return blueColours
 
-
 """
 FUNCTION : plotPath
 Goes through all latitudes and longitudes and plots them on the map with a colour corresponding to RC's status of those points
@@ -367,7 +368,6 @@ IN
 OUT
 """
 def plotMarkers(gmap):
-
     #Place timestamp markers
     if markerInterval :
         for n in range(len(times)):
