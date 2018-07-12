@@ -17,7 +17,7 @@
    ```
    Once gmplot is installed, navigate to where it was installed
    _Linux_ : 
-   `/usr/lib/python3.6/site-packages/gmplot-1.2.0-py3.6.egg/gmplot/` and **Replace the existing "gmplot.py" with the one included in your cloned repo situated at Tools/gpsPlotting/**
+   `/usr/lib/python3.6/site-packages/gmplot-1.2.0-py3.6.egg/gmplot/` and **Replace the existing "gmplot.py" with the one included in your cloned repo situated at Tools/gpsPlotting/moddedGMPlot**
 
 **-----------------------**
 

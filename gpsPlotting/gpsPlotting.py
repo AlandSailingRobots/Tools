@@ -218,7 +218,7 @@ def plotPath(gmap):
         else : #RC is OFF
             latCoords, longCoords, linkIndexes, n = addSection(n, linkIndexes, False)
             if len(latCoords)>0 and len(longCoords)>0:
-                colour = listOfBlues.pop()
+                colour = random.choice(listOfBlues)
                 gmap.plot(latCoords, longCoords, colour, edge_width=2, arrow=True)
     plotLinks(gmap, linkIndexes)
 
@@ -383,7 +383,7 @@ def plotMarkers(gmap):
                                                                             {2}\
                                                                             {3}'.format(row, wpLats[row], wpLons[row], wpRadii[row]))
         gmap.circle(wpLats[row], wpLons[row], wpRadii[row], color = 'crimson') #Draw radius
-    gmap.plot(wpLats, wpLons, color = 'crimson', edge_width=2, closed=True) #Plot path between waypoints
+    gmap.plot(wpLats, wpLons, color = 'crimson', edge_width=2, closed=False) #Plot path between waypoints
 
 
 #MAIN SCRIPT
