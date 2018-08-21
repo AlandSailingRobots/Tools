@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 if len(sys.argv) > 1:
     filepath = str(sys.argv[1])
 else:
-    filepath = 'MSC.kml'
+    print("USAGE: python rotator.py KMLFile")
 
 
 eRadius = 6731000
@@ -73,9 +73,14 @@ def cartes2latLong(cord):
 
 
 
-def getCentroid(Ax, Ay, Bx, By, Cx, Cy):
-    Ux = (Ax+Bx+Cx)/3
-    Uy = (Ay+By+Cy)/3
+def getCentroid(cords):
+    xSum = 0
+    ySum = 0
+    for cord in cords:
+        xSum = xSum + cord[0]
+        ySum = ySum + cord[1]
+    Ux = xSum/len(cords)
+    Uy = ySum/len(cords)
     return np.array([Ux, Uy])
 
 
@@ -147,7 +152,7 @@ def main():
     for wp in wps:
         cartWps.append(latLong2Cartes(wp))
 
-    U = getCentroid(cartWps[0][0], cartWps[0][1], cartWps[1][0],cartWps[1][1],cartWps[2][0], cartWps[2][1])
+    U = getCentroid(cartWps)
 
 
     plt.close('all')
